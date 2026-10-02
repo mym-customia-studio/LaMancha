@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>La Mancha · Cocina de fuegos en Capitán Sarmiento</title>
+<meta name="description" content="El restaurante que dibujó un pediatra: cocina de fuegos en un galpón recuperado de Capitán Sarmiento, a 33 km de San Antonio de Areco. Viernes y sábados por la noche.">
+<meta name="theme-color" content="#5C6529">
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/playfair-logo.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/petrona-var.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/chivo-var.woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/estilos.css?v=20261002x">
+<script src="assets/js/main.js?v=20261002x" defer></script>
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+
+<header class="top" id="top">
+  <div class="top-in">
+    <a class="marca" href="#inicio">
+      <img src="assets/img/marca-la-mancha.svg" alt="La Mancha, cocina de fuegos" width="415" height="96">
+    </a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#historia">La historia</a>
+      <a href="#lugar">El lugar</a>
+      <a href="#cocina">La cocina</a>
+      <a href="#eventos">Eventos</a>
+      <a href="#escapada">La escapada</a>
+      <a class="btn btn-brasa nav-cta" href="#reservas">Reservar mesa</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+
+<!-- ═══ 1 · PORTADA ═══════════════════════════════════════════════ -->
+<section class="hero" id="inicio">
+  <!-- Carrusel a pantalla completa: una foto por vez, con fundido. En PC usa las fotos apaisadas (amplia-*),
+       en celular las verticales (portada-*). Las siguientes las carga main.js después de la primera. -->
+  <div class="hero-fondo" aria-hidden="true"
+       data-pc="amplia-fachada,amplia-mesa"
+       data-movil="portada-flores,portada-cava,portada-mesa,portada-fuego">
+    <picture>
+      <source media="(max-width:900px)" srcset="assets/img/portada-salon-noche.webp">
+      <img class="activa" src="assets/img/amplia-salon-dia.webp" alt="" width="1600" height="900" fetchpriority="high">
+    </picture>
+  </div>
+  <div class="hero-in">
+    <p class="etiqueta">Capitán Sarmiento · Buenos Aires</p>
+    <h1 aria-label="La Mancha"><span class="pal"><span class="l l1">L</span><span class="l l2">a</span></span> <span class="pal"><span class="l l3">M</span><span class="l l4">a</span><span class="l l5">n</span><span class="l l6">c</span><span class="l l7">h</span><span class="l l8">a</span></span></h1>
+    <p class="hero-lema">Cocina de fuegos</p>
+    <div class="botones">
+      <a class="btn btn-brasa" href="#reservas">Reservar mesa</a>
+      <a class="btn btn-linea" href="#historia">Conocer la historia</a>
+    </div>
+    <ul class="hero-datos">
+      <li>Viernes y sábados</li>
+      <li>Desde las 20:30</li>
+      <li>4,9 ★ en Google</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══ 2 · LA HISTORIA DE CARLOS ════════════════════════════════ -->
+<section class="sec sec-crema" id="historia">
+  <div class="cont dos">
+    <div>
+      <p class="etiqueta rev">La historia</p>
+      <h2 class="rev">El restaurante que <em>dibujó</em> un pediatra.</h2>
+      <ol class="momentos">
+        <li class="rev rev-linea">
+          <h3>El médico del pueblo</h3>
+          <p>A los 13 años Carlos Más decidió que iba a ser médico. Durante décadas fue el único pediatra de Capitán Sarmiento: el que atendía a todos los chicos del pueblo, a cualquier hora. Todavía lo es.</p>
+        </li>
+        <li class="rev rev-linea">
+          <h3>El parate</h3>
+          <p>Un día tuvo que frenar. Leyó, pintó, tomó clases de teatro. Y en esa calma que no esperaba empezó a llenar hojas con dibujos de un lugar que todavía no existía.</p>
+        </li>
+        <li class="rev rev-linea">
+          <h3>El galpón</h3>
+          <p>Lo empezó a levantar en plena pandemia, con maderas, chapas y muebles que ya habían tenido otra vida. Pasó noches enteras ahí adentro, solo, mirando cómo entraba la luz de la luna. Hoy lo lleva adelante con Marilina, sus hijos y el equipo de cocina. Dice que es como tener un hijo más.</p>
+        </li>
+      </ol>
+      <blockquote class="cita rev">
+        <!-- Retrato vivo: video generado con IA (Gemini) a partir de una foto. Arranca cuando entra en pantalla (main.js). -->
+        <video class="cita-retrato" width="240" height="240" muted loop playsinline preload="none" poster="assets/img/carlos-retrato.webp" aria-hidden="true">
+          <source data-src="assets/video/carlos-retrato.webm?v=2" type="video/webm">
+          <source data-src="assets/video/carlos-retrato.mp4?v=2" type="video/mp4">
+        </video>
+        <div>
+          <p>“La vida sin sueños es una vida vacía.”</p>
+          <footer>Carlos Más</footer>
+        </div>
+      </blockquote>
+    </div>
+    <!-- ▼ FOTO: es de la nota de La Nación (fotógrafo Maximiliano Amena). Para publicar hace falta permiso o una foto propia. -->
+    <figure class="historia-foto rev rev-foto">
+      <img src="assets/img/historia-carlos.webp" alt="Carlos Más acomodando una botella en la cava de La Mancha" width="640" height="800" loading="lazy">
+    </figure>
+  </div>
+</section>
+
+<!-- ═══ 4 · EL LUGAR ═════════════════════════════════════════════ -->
+<section class="lugar" id="lugar">
+  <!-- Fondo: carrusel a pantalla completa, igual que la portada. PC usa las fotos apaisadas, celular las verticales. -->
+  <div class="lugar-fondo" aria-hidden="true"
+       data-pc="amplia-salon-dia,amplia-mesa"
+       data-movil="portada-salon-noche,portada-mesa,portada-flores">
+    <picture>
+      <source media="(max-width:900px)" srcset="assets/img/portada-cava.webp">
+      <img class="activa" src="assets/img/amplia-fachada.webp" alt="" width="1600" height="900" loading="lazy">
+    </picture>
+  </div>
+  <div class="cont lugar-in">
+    <div class="lugar-titulo">
+      <p class="etiqueta rev">El lugar</p>
+      <h2 class="rev">De afuera, un galpón viejo. <em>Adentro, otra cosa.</em></h2>
+      <p class="lugar-idea rev">Carlos lo quiso así: que desde la calle no parezca lo que es, y que la sorpresa al entrar te haga querer quedarte.</p>
+    </div>
+    <div class="lugar-relato">
+      <p class="rev">Acá todo tuvo una vida antes. El piso es de madera recuperada y cruje al caminar. Las chapas del techo cubrieron un galpón de pollos. Las lámparas eran tolvas. Las tablas del mostrador son las mismas donde alguna vez se amasó el pan.</p>
+      <p class="rev">La mesa central fue torno de una panadería de La Matanza durante 70 años. La trajo la hija del panadero, que quería ver con sus propios ojos dónde iba a quedar el lugar de trabajo de su padre. Hicieron falta seis personas para bajarla.</p>
+      <p class="rev">Y debajo del salón está la cava, donde se baja a elegir el vino de la noche.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 5 · LA COCINA ════════════════════════════════════════════ -->
+<section class="sec sec-crema sec-pan" id="cocina">
+  <div class="cont">
+    <div class="enc">
+      <p class="etiqueta rev">La cocina</p>
+      <h2 class="rev">Cuatro fuegos <em>y nada escondido.</em></h2>
+      <p class="bajada rev">La cocina está abierta y se ve desde cualquier mesa. “No ocultamos nada”, dice Carlos. La carta cambia todas las semanas, según lo que haya fresco.</p>
+    </div>
+  </div>
+  <!-- Galería de platos: cinta que corre sola, despacio y sin corte (main.js duplica las fotos para cerrar la vuelta). Todas del mismo tamaño. -->
+  <div class="tira rev" role="region" aria-label="Platos de La Mancha">
+    <div class="tira-pista">
+      <figure><img src="assets/img/plato-bife.webp" alt="Bife a la parrilla con papas crocantes y verduras asadas" width="593" height="553" loading="lazy"></figure>
+      <figure><img src="assets/img/plato-pappardelle.webp" alt="Cintas caseras con ragú y láminas de queso" width="414" height="444" loading="lazy"></figure>
+      <figure><img src="assets/img/plato-pescado.webp" alt="Pescado dorado a la parrilla con limón asado y verduras" width="498" height="581" loading="lazy"></figure>
+      <figure><img src="assets/img/plato-lasana.webp" alt="Porción gratinada con pesto y albahaca" width="594" height="562" loading="lazy"></figure>
+      <figure><img src="assets/img/plato-langostinos.webp" alt="Langostinos sobre hummus con palta, mango y pepino" width="586" height="559" loading="lazy"></figure>
+      <figure><img src="assets/img/plato-ensalada-duraznos.webp" alt="Ensalada de hojas verdes con duraznos asados, higos, queso y nueces" width="586" height="566" loading="lazy"></figure>
+      <figure><img src="assets/img/plato-pasta-rellena.webp" alt="Pasta rellena bicolor en salsa cremosa" width="566" height="567" loading="lazy"></figure>
+      <figure><img src="assets/img/plato-cazuela-langostinos.webp" alt="Cazuela fría de langostinos con palta, cebolla morada y lima" width="587" height="522" loading="lazy"></figure>
+      <figure><img src="assets/img/plato-ensalada-peras.webp" alt="Ensalada de peras, jamón crudo, queso azul, higos y nueces" width="576" height="557" loading="lazy"></figure>
+      <figure><img src="assets/img/plato-ceviche.webp" alt="Ceviche con palta, mango y cebolla morada" width="591" height="551" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 3 · PRENSA ═══════════════════════════════════════════════ -->
+<section class="sec sec-crema" id="prensa">
+  <div class="cont">
+    <div class="enc">
+      <p class="etiqueta rev">Lo contaron ellos</p>
+      <h2 class="rev">La Mancha <em>en los medios.</em></h2>
+    </div>
+    <!-- De cada nota va solo el título, una línea propia y el link al medio. Nunca se copia el texto. -->
+    <div class="grilla g3">
+      <article class="nota rev">
+        <p class="nota-medio">La Nación · Revista Lugares · diciembre 2024</p>
+        <h3>Cambio de vida a los 55: el sueño gastronómico del pediatra del pueblo</h3>
+        <p class="nota-frase">“Hice tantos dibujos, pasé tantas horas soñando este lugar.”</p>
+        <a class="enlace" href="https://www.lanacion.com.ar/revista-lugares/cambio-de-vida-a-los-55-el-sueno-gastronomico-del-pediatra-del-pueblo-nid08122024/" target="_blank" rel="noopener">Leer la nota en La Nación</a>
+      </article>
+      <article class="nota rev">
+        <p class="nota-medio">Perfil · julio 2026</p>
+        <h3>La Mancha Cocina de Fuegos: el arte de anfitrionar entre fuegos y madera</h3>
+        <p class="nota-frase">Un galpón hecho con materiales recuperados y una cocina que respeta el producto.</p>
+        <a class="enlace" href="https://www.perfil.com/noticias/guia-de-profesionales-pnt/la-mancha-cocina-de-fuegos-el-arte-de-anfitrionar-entre-fuegos-y-madera.phtml" target="_blank" rel="noopener">Leer la nota en Perfil</a>
+      </article>
+      <article class="nota rev">
+        <p class="nota-medio">Semanario Argentino · El Argentino Gourmet · octubre 2024</p>
+        <h3>Cocina de fuegos</h3>
+        <p class="nota-frase">Un viejo galpón por fuera, la mesa compartida y un menú por pasos con maridaje.</p>
+        <a class="enlace" href="https://www.semanarioargentino.com.ar/el-argentino-gourmet/cocina-de-fuegos/" target="_blank" rel="noopener">Leer la nota en Semanario Argentino</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 8 · EVENTOS EMPRESARIALES ════════════════════════════════ -->
+<section class="eventos" id="eventos">
+  <!-- Foto fija a pantalla completa: queda quieta mientras el texto pasa por encima (la sección la recorta con clip-path) -->
+  <div class="eventos-fondo" aria-hidden="true">
+    <img src="assets/img/amplia-salon-dia.webp" alt="" width="1600" height="900" loading="lazy">
+  </div>
+  <div class="cont eventos-in">
+    <p class="etiqueta rev">Eventos empresariales</p>
+    <h2 class="rev">La próxima reunión de tu equipo, <em>frente al fuego.</em></h2>
+    <p class="eventos-bajada rev">Un galpón con historia, una mesa larga y una cocina a la vista. El lugar para agasajar a un cliente, celebrar un buen año o sacar al equipo de la oficina, con un menú a los fuegos pensado para el grupo.</p>
+    <ul class="propuestas">
+      <li class="rev rev-linea"><h3>Almuerzos y cenas de equipo</h3><p>Todos en la misma mesa, con la cocina trabajando a la vista.</p></li>
+      <li class="rev rev-linea"><h3>Agasajos y catas en la cava</h3><p>Una mesa chica, bajo tierra, para los invitados que importan.</p></li>
+      <li class="rev rev-linea"><h3>Jornadas fuera de la oficina</h3><p>Reunión, almuerzo largo y sobremesa, lejos del ruido.</p></li>
+    </ul>
+    <p class="rev"><a class="btn btn-brasa" href="#reservas" data-demo="Acá se abre la página de eventos, con las propuestas completas y el pedido de presupuesto.">Conocer más</a></p>
+  </div>
+</section>
+
+<!-- ═══ 7 · CENA + NOCHE ═════════════════════════════════════════ -->
+<section class="sec sec-crema" id="quedate">
+  <div class="cont">
+    <div class="paquete">
+      <div>
+        <p class="etiqueta rev">Cena + noche <span class="tag">Próximamente</span></p>
+        <h2 class="rev">Cená tranquilo. <em>Quedate a dormir.</em></h2>
+        <p class="rev">Estamos armando la experiencia completa con alojamiento a pocos minutos: cena en La Mancha, noche en el pueblo y desayuno de campo, en una sola reserva.</p>
+        <p class="rev"><a class="btn btn-tinta" href="#reservas" data-demo="Acá se abre WhatsApp con el mensaje: “Quiero que me avisen cuando esté la escapada completa”.">Avisame cuando esté</a></p>
+      </div>
+      <!-- Foto del salón de noche. Cuando haya acuerdo con el hotel, acá va la foto del alojamiento. -->
+      <figure class="paquete-foto rev rev-foto">
+        <img src="assets/img/portada-salon-noche.webp" alt="El salón de La Mancha de noche, con las mesas largas puestas y las lámparas encendidas" width="474" height="571" loading="lazy">
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 6 · LA ESCAPADA ══════════════════════════════════════════ -->
+<section class="sec sec-crema sec-pegada" id="escapada">
+  <div class="cont">
+    <div class="enc">
+      <p class="etiqueta rev">La escapada</p>
+      <h2 class="rev">Más cerca <em>de lo que pensás.</em></h2>
+      <p class="bajada rev">Capitán Sarmiento queda sobre la Ruta 8, a 33 km de San Antonio de Areco. Es el pueblo que todavía no se llenó.</p>
+    </div>
+    <ul class="datos">
+      <li class="rev rev-linea"><strong>145 km</strong><span>desde Buenos Aires</span></li>
+      <li class="rev rev-linea"><strong>Ruta 8</strong><span>derecho, sin vueltas</span></li>
+      <li class="rev rev-linea"><strong>33 km</strong><span>de San Antonio de Areco</span></li>
+    </ul>
+    <div class="escapada-cuerpo">
+      <ol class="plan">
+        <li class="rev"><time>18:00</time><p><strong>Salís.</strong> Panamericana, ramal Pilar y Ruta 8.</p></li>
+        <li class="rev"><time>20:00</time><p><strong>Llegás al pueblo.</strong> Una vuelta por la plaza antes de cenar.</p></li>
+        <li class="rev"><time>20:30</time><p><strong>Te sentás frente al fuego.</strong> La mesa es tuya toda la noche.</p></li>
+        <li class="rev"><time>Después</time><p><strong>Sobremesa.</strong> Acá se defiende a ultranza: nadie te levanta la mesa.</p></li>
+      </ol>
+      <div class="mapa rev rev-foto">
+        <!-- El mapa apunta a la ficha de Google del negocio, no a la dirección en texto (playbook, fase 1) -->
+        <!-- El marco recorta la franja de arriba del mapa, donde Google pone su ficha; el logo y los créditos de abajo quedan a la vista -->
+        <div class="mapa-marco">
+          <iframe src="https://www.google.com/maps?q=La+Mancha+Cocina+de+Fuegos,+Capit%C3%A1n+Sarmiento&amp;z=13&amp;output=embed" title="Mapa de La Mancha Cocina de Fuegos en Capitán Sarmiento" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+        <a class="btn mapa-btn" href="https://www.google.com/maps/dir/?api=1&amp;destination=La+Mancha+Cocina+de+Fuegos,+Capit%C3%A1n+Sarmiento" target="_blank" rel="noopener">Cómo llegar</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 9 · RESEÑAS + RESERVA ════════════════════════════════════ -->
+<section class="sec sec-hollin" id="reservas">
+  <div class="cont">
+    <div class="enc rev">
+      <p class="etiqueta">4,9 ★ en Google · 40 reseñas</p>
+      <h2>Lo que dicen <em>los que vinieron.</em></h2>
+    </div>
+    <div class="grilla g3">
+      <blockquote class="resena rev"><p>“Vinimos de Buenos Aires y valió la pena.”</p><footer>Sebastián R. · Google</footer></blockquote>
+      <blockquote class="resena rev"><p>“Un espacio para disfrutar sin apuro y sentirse como en casa.”</p><footer>Emma K. · Google</footer></blockquote>
+      <blockquote class="resena rev"><p>“El ambiente rústico pero de muy buen gusto, atendido por sus dueños.”</p><footer>María Cecilia M. · Google</footer></blockquote>
+    </div>
+
+    <div class="reserva rev">
+      <div>
+        <h2>Reservá <em>tu mesa.</em></h2>
+        <p>Abrimos pocas noches y las mesas se quedan toda la velada, así que conviene reservar.</p>
+        <div class="botones">
+          <a class="btn btn-brasa" href="#reservas" data-demo="Acá se abre WhatsApp con el mensaje: “Hola, quiero reservar una mesa en La Mancha”.">Reservar</a>
+          <a class="btn btn-linea" href="https://www.google.com/maps/search/?api=1&query=La+Mancha+Cocina+de+Fuegos+Capit%C3%A1n+Sarmiento" target="_blank" rel="noopener">Cómo llegar</a>
+        </div>
+      </div>
+      <div>
+      <dl class="ficha">
+        <div><dt>Horario</dt><dd>Viernes y sábados, de 20:30 a 00:30</dd></div>
+        <div><dt>Dirección</dt><dd>Alfredo J. Palacios 1600, Capitán Sarmiento, Buenos Aires</dd></div>
+      </dl>
+      <!-- Redes y WhatsApp: en la demo no llevan a ningún lado. Íconos genéricos de línea; los oficiales de cada marca se colocan al publicar. -->
+      <ul class="redes">
+        <li><button type="button" class="red" aria-label="Instagram de La Mancha" data-demo="Acá se abre el Instagram de La Mancha (@lamanchacocina).">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r=".6" fill="currentColor"/></svg>
+        </button></li>
+        <li><button type="button" class="red" aria-label="Facebook de La Mancha" data-demo="Acá se abre el Facebook de La Mancha.">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 21v-8h2.6l.4-3h-3V8.2c0-.9.3-1.5 1.6-1.5h1.5V4.1c-.3 0-1.200-.1-2.200-.1-2.300 0-3.900 1.400-3.900 3.900V10H9v3h2.500v8"/></svg>
+        </button></li>
+        <li><button type="button" class="red" aria-label="TikTok de La Mancha" data-demo="Acá se abre el TikTok de La Mancha.">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="17.500" r="3.500"/><path d="M11.500 17.500V3.500l7.500 2.200v4.300l-7.500-2.200"/></svg>
+        </button></li>
+        <li><button type="button" class="red" aria-label="WhatsApp de La Mancha" data-demo="Acá se abre WhatsApp con el mensaje: “Hola, quiero reservar una mesa en La Mancha”.">
+          <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.800a9.200 9.200 0 0 0-7.900 13.900L2.800 21.200l4.600-1.200A9.200 9.200 0 1 0 12 2.800z"/><path d="M9 7.600c-.7.600-.9 1.600-.5 2.900 1 2.600 2.900 4.500 5.400 5.400 1.200.4 2.200.200 2.800-.5l.3-1.400-2.200-1.100-1 1c-1.100-.5-2.300-1.700-2.800-2.800l1-1L9.900 7.900 9 7.600z" fill="currentColor" stroke="none"/></svg>
+        </button></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="pie">
+  <div class="cont pie-in">
+    <p class="marca"><img src="assets/img/logo-la-mancha.svg" alt="La Mancha, cocina de fuegos" width="478" height="280" loading="lazy"></p>
+    <p>© 2026 La Mancha · Capitán Sarmiento</p>
+    <p>Diseño y desarrollo: <a href="https://mymcustomiastudio.com/" target="_blank" rel="noopener">MyM CustomIA Studio</a></p>
+  </div>
+</footer>
+
+<div class="aviso" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
